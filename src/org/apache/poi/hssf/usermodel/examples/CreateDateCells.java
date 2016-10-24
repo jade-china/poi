@@ -54,5 +54,7 @@ public class CreateDateCells {
         FileOutputStream fileOut = new FileOutputStream("workbook.xls");
         wb.write(fileOut);
         fileOut.close();
+        
+        System.out.println("打完收功~");
     }
 }
